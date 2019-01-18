@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "Referee assessments",
+    "description": "Referee assessments",
+    "permissions": [
+        "activeTab",
+        "https://*/"
+    ],
+    "background": {
+        "scripts": [
+        ]
+    },
+    "browser_action": {
+        "default_icon": "hello.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": []
+}
